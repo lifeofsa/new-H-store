@@ -37,6 +37,9 @@
     "data:destroy": "node backend/seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
+  "engines": {
+    "node": ">=15.0.0"
+  },
   "author": "Syed Adbullah",
   "license": "MIT"
 }
