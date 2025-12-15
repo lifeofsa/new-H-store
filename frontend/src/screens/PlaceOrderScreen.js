@@ -93,7 +93,7 @@ const PlaceOrderScreen = ({ history }) => {
                       <Row>
                         <Col md={1}>
                           <Image
-                            src={item.image}
+                            src={item.image && item.image.replace(/\\/g, '/')}
                             alt={item.name}
                             fluid
                             rounded

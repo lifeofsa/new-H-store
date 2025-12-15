@@ -24,7 +24,11 @@ const TopProductCarousel = () => {
       {products.map((product) => (
         <Carousel.Item key={product._id}>
           <Link to={`/product/${product._id}`}>
-            <Image src={product.image} alt={product.name} fluid />
+            <Image
+              src={product.image && product.image.replace(/\\/g, '/')}
+              alt={product.name}
+              fluid
+            />
           </Link>
         </Carousel.Item>
       ))}

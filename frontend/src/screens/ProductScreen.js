@@ -95,7 +95,11 @@ const ProductScreen = ({ history, match }) => {
         <>
           <Row>
             <Col md={6}>
-              <Image src={product.image} alt={product.name} fluid />
+              <Image
+                src={product.image && product.image.replace(/\\/g, '/')}
+                alt={product.name}
+                fluid
+              />
             </Col>
 
             <Col md={3}>

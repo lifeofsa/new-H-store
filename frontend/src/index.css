@@ -1,30 +1,45 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+
 main {
   min-height: 80vh;
 }
+
 h3 {
   padding: 1rem 0;
 }
+
 h1 {
   font-size: 1.8rem;
   padding: 1rem 0;
 }
+
 h2 {
   font-size: 1.4rem;
   padding: 0.5rem 0;
 }
+
 .rating span {
   margin: 0.1rem;
 }
+
 /* Carousel  */
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
   display: block;
 }
+
 .carousel-caption {
   position: absolute;
   top: 0;
 }
+
 .carousel-caption h2 {
   color: #fff;
 }
@@ -46,10 +61,12 @@ h2 {
   font-size: 19px;
   color: #fff;
 }
+
 .po {
   width: 100%;
   margin-right: 100px !important;
 }
+
 .btnFacebook {
   /* padding-top: 90px; */
   width: 300px;
@@ -62,6 +79,7 @@ h2 {
   /* margin: 5px; */
   display: inline-block;
 }
+
 .bold {
   font-weight: bold !important;
   text-align: center;
@@ -85,6 +103,7 @@ h2 {
     border-radius: 0px !important; */
   }
 }
+
 @media only screen and (max-width: 360px) {
   .btnFacebook {
     /* padding-top: 90px; */
@@ -93,6 +112,7 @@ h2 {
     border-radius: 0px !important; */
   }
 }
+
 @media only screen and (max-width: 200px) {
   .btnFacebook {
     display: inline-block !important;
@@ -101,6 +121,7 @@ h2 {
     /* height: 70px;
     border-radius: 0px !important; */
   }
+
   .bold {
     display: inline-block !important;
     font-weight: bold !important;
