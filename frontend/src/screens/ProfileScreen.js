@@ -9,7 +9,7 @@ import { update } from '../action/userActions';
 import { myListOrderAction } from '../action/orderActions';
 import { Link } from 'react-router-dom';
 import Meta from '../components/Meta';
-import { set } from 'mongoose';
+
 const ProfileScreen = ({ history }) => {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
